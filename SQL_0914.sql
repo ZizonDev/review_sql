@@ -135,6 +135,14 @@ FROM DUAL;
 --MOD : 나누기한 나머지를 출력하는 함수.
 SELECT MOD(21, 5) FROM DUAL;
 
+--CEIL : 소수점 이하는 무조건 올림하는 함수.
+SELECT CEIL(12.345) FROM DUAL;          
+
+--FLOOR : 소수점 이하는 무조건 내림하는 함수.
+SELECT FLOOR(12.999) FROM DUAL;         
+
+--POWER : 정수 A를 정수 B만큼 제곱하는 함수.
+SELECT POWER(3, 4) FROM DUAL;
 
 
 
